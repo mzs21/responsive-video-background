@@ -62,14 +62,14 @@
     grid-row: 8/9;
     font-size: 50px;
  
-    @include text-animation(YourName, 20s, step-end(100, end), 0s);
+    @include text-animation(YourName, 20s, step-end(100, end), 5s);
 }
 
 .director-name{
     grid-row: 9/10;
     font-size: 35px;
 
-    @include text-animation(MakotoShinkai, 20s, step-end(100, end), 8s);
+    @include text-animation(MakotoShinkai, 20s, step-end(100, end), 13s);
 }
     
 .description{
@@ -86,24 +86,24 @@
 
     p{
         &:nth-child(1){  
-            @include text-animation(Description, 15s, step-end(100, end), 18s);
+            @include text-animation(Description, 15s, step-end(100, end), 23s);
         }
 
         &:nth-child(2){  
-            @include text-animation(Description, 15s, step-end(100, end), 28s);
+            @include text-animation(Description, 15s, step-end(100, end), 33s);
         }
 
         &:nth-child(3){  
-            @include text-animation(Description, 15s, step-end(100, end), 36s);
+            @include text-animation(Description, 15s, step-end(100, end), 41s);
         }
 
         &:nth-child(4){  
-            @include text-animation(Description, 15s, step-end(100, end), 46s);
+            @include text-animation(Description, 15s, step-end(100, end), 51s);
         }
     }
     
     a{
-        @include text-animation(Description, 1s, step-end(100, end), 47s);
+        @include text-animation(Description, 1s, step-end(100, end), 52s);
         color: transparent;
         text-decoration: none;
         text-transform: uppercase;
