@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.full-screen-video-container, .full-screen-video-container video {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.full-screen-video-container video {
+  z-index: -1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.full-screen-video-content {
+  grid-column: 3/-3;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: transparent;
+}
+
+.movie-name {
+  grid-row: 8/9;
+  font-size: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+  letter-spacing: .10em;
+  animation-name: YourName;
+  animation-duration: 20s;
+  animation-timing-function: step-end(100, end);
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  /*
+    animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
+    */
+}
+
+@keyframes YourName {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.director-name {
+  grid-row: 9/10;
+  font-size: 35px;
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+  letter-spacing: .10em;
+  animation-name: MakotoShinkai;
+  animation-duration: 20s;
+  animation-timing-function: step-end(100, end);
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+  /*
+    animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
+    */
+}
+
+@keyframes MakotoShinkai {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.description {
+  grid-column: 3/-3;
+  grid-row: 10/-1;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: transparent;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.description p:nth-child(1) {
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+  letter-spacing: .10em;
+  animation-name: Description;
+  animation-duration: 15s;
+  animation-timing-function: step-end(100, end);
+  animation-delay: 18s;
+  animation-fill-mode: forwards;
+  /*
+    animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
+    */
+}
+
+@keyframes Description {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.description p:nth-child(2) {
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+  letter-spacing: .10em;
+  animation-name: Description;
+  animation-duration: 15s;
+  animation-timing-function: step-end(100, end);
+  animation-delay: 28s;
+  animation-fill-mode: forwards;
+  /*
+    animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
+    */
+}
+
+@keyframes Description {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.description p:nth-child(3) {
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+  letter-spacing: .10em;
+  animation-name: Description;
+  animation-duration: 15s;
+  animation-timing-function: step-end(100, end);
+  animation-delay: 36s;
+  animation-fill-mode: forwards;
+  /*
+    animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
+    */
+}
+
+@keyframes Description {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.description p:nth-child(4) {
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+  letter-spacing: .10em;
+  animation-name: Description;
+  animation-duration: 15s;
+  animation-timing-function: step-end(100, end);
+  animation-delay: 46s;
+  animation-fill-mode: forwards;
+  /*
+    animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
+    */
+}
+
+@keyframes Description {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.description a {
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+  letter-spacing: .10em;
+  animation-name: Description;
+  animation-duration: 1s;
+  animation-timing-function: step-end(100, end);
+  animation-delay: 47s;
+  animation-fill-mode: forwards;
+  /*
+    animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
+    */
+  color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@keyframes Description {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.description a:hover {
+  font-size: 50px;
+}
+
+html, body {
+  margin: 0;
+}

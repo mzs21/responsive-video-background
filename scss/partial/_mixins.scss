@@ -1,0 +1,29 @@
+@import "variables";
+
+@mixin text-animation($animationName, $animationDuration, $animationTimingFunction, $animationDelay)
+{
+    
+    overflow: hidden; 
+    margin: 0 auto;
+    white-space: nowrap;
+    letter-spacing: .10em;
+    animation-name: $animationName;
+    animation-duration: $animationDuration;
+    animation-timing-function: $animationTimingFunction;
+    animation-delay: $animationDelay;
+    animation-fill-mode: forwards;
+
+    /*
+    animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
+    */
+
+    @keyframes #{$animationName}
+    {
+        0%   {color: white;}
+        25%  {color: white;}
+        50%  {color: white;}
+        100% {color: white;}
+        from { width: 0%;}
+        to { width: 100%; }
+    }
+}

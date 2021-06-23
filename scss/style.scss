@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import "partial/classes";
+
+html, body{
+    margin: 0;
+}
+
+.full-screen-video-container{
+    @extend .full-screen-video-container;
+}
+
+.full-screen-video-container video{
+    @extend .full-screen-video-container;
+}
+
+.full-screen-video-content{
+    @extend .full-screen-video-content;
+}
+
+.movie-name{
+    @extend .movie-name;
+}
+
+.description{
+    @extend .description;
+}
