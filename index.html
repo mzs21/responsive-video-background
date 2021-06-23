@@ -12,9 +12,18 @@
     <body>
         <main>
             <div class="full-screen-video-container">
-                <video playsinline autoplay loop poster="./src/Taki - Your Name.png">
+                <video playsinline autoplay loop muted poster="./src/Taki - Your Name.png">
                     <source src="./src/Katawore Doki - Your Name.mp4" type="video/mp4"/>
                 </video>
+                
+                <iframe src="./src/silence.mp3" allow="autoplay" style="display: none"></iframe>
+
+                <!-- As newer version of Chrome doesn't allow autoplay, so using the above 
+                     <iframe> as a diversion. This is a neat trick found on StackOverFlow -->
+                
+                <audio autoplay loop>
+                    <source src="./src/Katawore Doki - Your Name.mp3" type="audio/mp3">
+                </audio>
 
                 <div class="full-screen-video-content movie-name">
                     Your Name
