@@ -1,5 +1,6 @@
 @import "mixins";
 
+
 .full-screen-video-container{
     position: relative;
     height: 100vh;
@@ -28,6 +29,26 @@
     left: 50%;
 
     transform: translate(-50%, -50%);
+}
+
+.audioPermission
+{
+    display: grid;
+
+    .enableAudio{
+        grid-column: 1/-1;
+        color: white;
+        background-color: transparent;
+        border-color: transparent;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        margin: 0;
+        
+        &:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
 }
 
 .full-screen-video-content {

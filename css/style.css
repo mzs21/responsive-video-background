@@ -22,6 +22,25 @@
   transform: translate(-50%, -50%);
 }
 
+.audioPermission {
+  display: grid;
+}
+
+.audioPermission .enableAudio, .audioPermission .audioPermission {
+  grid-column: 1/-1;
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+.audioPermission .enableAudio:hover, .audioPermission .audioPermission:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .full-screen-video-content {
   grid-column: 3/-3;
   font-family: 'Lobster', cursive;

@@ -24,3 +24,9 @@ html, body{
 .description{
     @extend .description;
 }
+
+.audioPermission{
+    @extend .audioPermission;
+    @extend .enableAudio;
+}
+

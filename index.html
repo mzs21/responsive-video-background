@@ -2,6 +2,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="./css/style.css">
+
+        <script defer type="text/javascript" src="./script/script.js" ></script>
         <title>Responsive Video Background</title>
 
         <meta charset="UTF-8">
@@ -12,19 +14,19 @@
     <body>
         <main>
             <div class="full-screen-video-container">
+
+                <div class="audioPermission">
+                    <button type="button" class="enableAudio">Turn on Audio</button>
+                </div>
+
                 <video playsinline autoplay loop muted poster="./src/Taki - Your Name.png">
                     <source src="./src/Katawore Doki - Your Name.mp4" type="video/mp4"/>
                 </video>
                 
-                <iframe src="./src/silence.mp3" allow="autoplay" style="display: none"></iframe>
-
-                <!-- As newer version of Chrome doesn't allow autoplay, so using the above 
-                     <iframe> as a diversion. This is a neat trick found on StackOverFlow -->
-                
-                <audio autoplay loop>
-                    <source src="./src/Katawore Doki - Your Name.mp3" type="audio/mp3">
+                <audio loop id="play">
+                    <source src="./src/Katawore Doki - Your Name.mp3" type="audio/mp3" >
                 </audio>
-
+    
                 <div class="full-screen-video-content movie-name">
                     Your Name
                 </div>
