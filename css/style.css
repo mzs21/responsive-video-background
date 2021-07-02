@@ -50,7 +50,7 @@
 
 .movie-name {
   grid-row: 8/9;
-  font-size: 6.63vh;
+  font-size: 50px;
   overflow: hidden;
   margin: 0 auto;
   white-space: nowrap;
@@ -88,7 +88,7 @@
 
 .director-name {
   grid-row: 9/10;
-  font-size: 4.64vh;
+  font-size: 35px;
   overflow: hidden;
   margin: 0 auto;
   white-space: nowrap;
@@ -130,7 +130,7 @@
   font-family: 'Lobster', cursive;
   text-align: center;
   color: transparent;
-  font-size: 3.97vh;
+  font-size: 30px;
   justify-content: center;
   align-items: center;
 }
