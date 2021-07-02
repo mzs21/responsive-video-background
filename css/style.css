@@ -50,7 +50,7 @@
 
 .movie-name {
   grid-row: 8/9;
-  font-size: 50px;
+  font-size: 6.63vh;
   overflow: hidden;
   margin: 0 auto;
   white-space: nowrap;
@@ -58,7 +58,7 @@
   animation-name: YourName;
   animation-duration: 20s;
   animation-timing-function: step-end(100, end);
-  animation-delay: 0s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
   /*
     animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
@@ -88,7 +88,7 @@
 
 .director-name {
   grid-row: 9/10;
-  font-size: 35px;
+  font-size: 4.64vh;
   overflow: hidden;
   margin: 0 auto;
   white-space: nowrap;
@@ -96,7 +96,7 @@
   animation-name: MakotoShinkai;
   animation-duration: 20s;
   animation-timing-function: step-end(100, end);
-  animation-delay: 8s;
+  animation-delay: 13s;
   animation-fill-mode: forwards;
   /*
     animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
@@ -130,7 +130,7 @@
   font-family: 'Lobster', cursive;
   text-align: center;
   color: transparent;
-  font-size: 30px;
+  font-size: 3.97vh;
   justify-content: center;
   align-items: center;
 }
@@ -143,7 +143,7 @@
   animation-name: Description;
   animation-duration: 15s;
   animation-timing-function: step-end(100, end);
-  animation-delay: 18s;
+  animation-delay: 23s;
   animation-fill-mode: forwards;
   /*
     animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
@@ -179,7 +179,7 @@
   animation-name: Description;
   animation-duration: 15s;
   animation-timing-function: step-end(100, end);
-  animation-delay: 28s;
+  animation-delay: 33s;
   animation-fill-mode: forwards;
   /*
     animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
@@ -215,7 +215,7 @@
   animation-name: Description;
   animation-duration: 15s;
   animation-timing-function: step-end(100, end);
-  animation-delay: 36s;
+  animation-delay: 41s;
   animation-fill-mode: forwards;
   /*
     animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
@@ -251,7 +251,7 @@
   animation-name: Description;
   animation-duration: 15s;
   animation-timing-function: step-end(100, end);
-  animation-delay: 46s;
+  animation-delay: 51s;
   animation-fill-mode: forwards;
   /*
     animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
@@ -287,12 +287,12 @@
   animation-name: Description;
   animation-duration: 1s;
   animation-timing-function: step-end(100, end);
-  animation-delay: 47s;
+  animation-delay: 52s;
   animation-fill-mode: forwards;
   /*
     animation: name, duration, timing-function, delay, iteration-count, direction, fill-mode, play-state
     */
-  color: transparent;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
