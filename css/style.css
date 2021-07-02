@@ -65,6 +65,12 @@
     */
 }
 
+@media (max-height: 600px) {
+  .movie-name {
+    font-size: 6.63vh;
+  }
+}
+
 @keyframes YourName {
   0% {
     color: white;
@@ -103,6 +109,12 @@
     */
 }
 
+@media (max-height: 600px) {
+  .director-name {
+    font-size: 4.60vh;
+  }
+}
+
 @keyframes MakotoShinkai {
   0% {
     color: white;
@@ -133,6 +145,12 @@
   font-size: 30px;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-height: 600px) {
+  .description {
+    font-size: 3.95vh;
+  }
 }
 
 .description p:nth-child(1) {

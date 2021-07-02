@@ -6,7 +6,7 @@
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-
+    
     display: grid;
     grid-template: repeat(12, 1fr)/repeat(12, 1fr);
     
@@ -60,14 +60,26 @@
 
 .movie-name{
     grid-row: 8/9;
-    font-size: 50px;
+    font-size: 50px; //3.25vw;
+    
+    @media (max-height: 600px) 
+    {
+        font-size:  6.63vh;
+    }
     
     @include text-animation(YourName, 20s, step-end(100, end), 5s);
 }
 
 .director-name{
     grid-row: 9/10;
-    font-size: 35px;
+    font-size: 35px; //2.25vw;
+
+    
+    @media (max-height: 600px) 
+    {
+        font-size:  4.60vh;
+    }
+    
 
     @include text-animation(MakotoShinkai, 20s, step-end(100, end), 13s);
 }
@@ -78,8 +90,15 @@
     font-family: 'Lobster', cursive;
     text-align: center;
     color: transparent;
-    font-size: 30px;
     
+    font-size: 30px; //2vw;
+    
+    @media (max-height: 600px) 
+    {
+        font-size:  3.95vh;
+    }
+    
+
     justify-content: center;
     align-items: center;
     
