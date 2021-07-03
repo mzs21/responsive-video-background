@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-.full-screen-video-container, .full-screen-video-container video {
+.full-screen-video-container {
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -24,10 +24,10 @@
 
 .audioPermission {
   display: grid;
+  grid-column: 1/2;
 }
 
-.audioPermission .enableAudio, .audioPermission .audioPermission {
-  grid-column: 1/-1;
+.audioPermission .enableAudio {
   color: white;
   background-color: transparent;
   border-color: transparent;
@@ -36,7 +36,7 @@
   margin: 0;
 }
 
-.audioPermission .enableAudio:hover, .audioPermission .audioPermission:hover {
+.audioPermission .enableAudio:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -339,6 +339,27 @@
 
 .description a:hover {
   font-size: 50px;
+}
+
+.footer {
+  background-color: transparent;
+  display: grid;
+  grid-row: 12/-1;
+}
+
+.footer img {
+  width: 35px;
+}
+
+.footer .github {
+  justify-self: center;
+  grid-column: 1/2;
+}
+
+.footer .linkedin {
+  justify-self: center;
+  align-self: end;
+  grid-column: 2/3;
 }
 
 html, body {

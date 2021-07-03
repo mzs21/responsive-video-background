@@ -34,9 +34,9 @@
 .audioPermission
 {
     display: grid;
-
-    .enableAudio{
-        grid-column: 1/-1;
+    grid-column: 1/2;
+    
+    .enableAudio{    
         color: white;
         background-color: transparent;
         border-color: transparent;
@@ -131,5 +131,26 @@
             &:hover {
                 font-size: 50px;
             }
+    }
+}
+
+.footer{
+    background-color: transparent;
+    display: grid;
+    grid-row: 12/-1;
+   
+    img{
+        width: 35px;
+    }
+
+    .github{
+        justify-self: center;
+        grid-column: 1/2;
+    }
+
+    .linkedin{
+        justify-self: center;
+        align-self: end;
+        grid-column: 2/3;
     }
 }
