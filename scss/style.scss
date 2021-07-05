@@ -8,28 +8,3 @@ html, body{
 .full-screen-video-container{
     @extend .full-screen-video-container;
 }
-
-.audioPermission{
-    @extend .audioPermission;
-}
-
-.full-screen-video-content{
-    @extend .full-screen-video-content;
-}
-
-.movie-name{
-    @extend .movie-name;
-}
-
-.director-name {
-    @extend .director-name;
-}
-
-.description{
-    @extend .description;
-}
-
-.footer{
-    @extend .footer;
-}
-
